@@ -10,12 +10,9 @@ export default function ShippingDelivery() {
       </p>
 
       <h2>Delivery Timelines</h2>
-      <p>
-        Orders placed <strong>before 12:00 PM</strong> will be delivered the same day by evening.
-        Orders placed after 12:00 PM will be delivered the next day.
-      </p>
+        
 
-      <h2>Charges</h2>
+       
       <p>
         An additional <strong>₹49</strong> fee applies for Same Day Delivery (may vary based on location and order size).
       </p>
