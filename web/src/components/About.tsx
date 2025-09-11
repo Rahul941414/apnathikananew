@@ -106,33 +106,9 @@ export default function About() {
           </div>
         </div>
 
-        {/* Team Section */}
-        <div className="mb-20">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Meet Our Team</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-red-500 mx-auto mb-4"></div>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our diverse team of passionate individuals works tirelessly to bring you the best
-              of Indian culture and commerce.
-            </p>
-          </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Team member cards - you can replace with actual team data */}
-              {[1, 2, 3].map((member) => (
-                <div key={member} className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-br from-orange-400 to-red-400 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Users className="w-16 h-16 text-white" />
-                  </div>
-                  <h4 className="text-xl font-bold text-gray-800 mb-2">Team Member {member}</h4>
-                  <p className="text-gray-600 mb-2">Position Title</p>
-                  <p className="text-sm text-gray-500">Brief description about the team member's role and contribution.</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+
+
 
         {/* CTA Section */}
         <div className="text-center bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-2xl p-12">
@@ -140,9 +116,7 @@ export default function About() {
           <p className="text-xl mb-8 text-orange-100">
             Be part of our mission to celebrate and preserve Indian heritage through commerce
           </p>
-          <button className="bg-white text-orange-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-orange-50 transition-colors duration-300 shadow-lg">
-            Start Shopping
-          </button>
+
         </div>
       </div>
     </div>
